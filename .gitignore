@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+
+# Virtual environments
+LangChain-Proj/
+.conda/
+
+# IDE
+.idea/
+*.swp
+*.swo
+
+# Database
+lc_chroma_db/
+*.db
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/

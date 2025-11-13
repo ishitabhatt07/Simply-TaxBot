@@ -1,0 +1,31 @@
+# Core Streamlit
+streamlit>=1.28.0
+
+# LangChain Core
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+
+# LLM Integrations
+langchain-ollama>=0.2.0
+
+# Vector Store
+langchain-chroma>=0.1.4
+chromadb>=0.5.0
+
+# Embeddings
+langchain-huggingface>=0.1.0
+sentence-transformers>=2.2.0
+
+# Document Processing
+pypdf>=3.17.0
+langchain-text-splitters>=0.3.0
+
+# Search
+duckduckgo-search>=6.0.0
+
+# Utilities
+requests>=2.31.0
+numpy>=1.24.0
+torch>=2.0.0  # Required for sentence-transformers
+transformers>=4.30.0  # Required for HuggingFace embeddings
